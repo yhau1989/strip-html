@@ -17,7 +17,10 @@
   },
   "homepage": "https://github.com/yhau1989/strip-html#readme",
   "dependencies": {
+    "array-paginate": "^1.0.2",
     "axios": "^0.27.2",
-    "html-to-text": "^8.2.0"
+    "btoa": "^1.2.1",
+    "html-to-text": "^8.2.0",
+    "mongodb": "^4.8.1"
   }
 }
