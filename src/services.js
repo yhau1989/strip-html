@@ -3,6 +3,7 @@ const btoa = require("btoa");
 const { convert } = require("html-to-text");
 
 const b64 = btoa("David Disch:Khh47evWcPBv8LP");
+const b64Sam = btoa("Samuel Pilay Muñoz:mbigdZGuVU5La8v");
 const urlApi = "https://cms.laprensa.org/";
 // const urlApi = 'https://dev-laprensa-drupal.pantheonsite.io/jsonapi/node/article?filter[title]='
 
@@ -119,4 +120,5 @@ const updateExcerpt = async (articleObject) => {
 module.exports = {
   searchArticle,
   updateExcerpt,
+  b64Sam,
 };

@@ -99,4 +99,5 @@ unique.forEach(element => {
 // newItems.push(json.data.filter(x => x.id == 55472)[0]);
 
 // console.log(newItems);
-pross2(newItems);
+// pross2(newItems);
+console.log(services.b64Sam);
